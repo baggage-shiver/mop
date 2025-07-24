@@ -1,0 +1,8 @@
+SHA,#AFFECTED_SPECS,TIME(S),#TOTAL_CLASSES,#IMPACTED_CLASSES,#IMPACTED_METHODS,TEST(S),#VIOLATIONS,#MONITORS,#EVENTS
+2ce183df,0,446.598,0,0,0,75.839,0,0,0
+d5ecd6a6,0,4.980,0,0,0,78.921,0,0,0
+11b2eca3,0,504.115,0,0,0,71.365,0,0,0
+5aebde5b,0,18.604,0,0,0,3.498,0,0,0
+sum,0,974.297,0,0,0,229.623,0,0,0
+arith_mean,-nan,243.57,-nan,-nan,-nan,57.41,-nan,-nan,-nan
+geo_mean,-nan,67.58,-nan,-nan,-nan,34.96,-nan,-nan,-nan

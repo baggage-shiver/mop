@@ -1,0 +1,42 @@
+\begin{table*}[t!]
+  \small
+  \centering
+%% \addtolength{\tabcolsep}{-0.04em}
+\caption{Percentage of \psOneC (left) and \psThreeCL (right) impacted classes found by \Tool analyses.}
+\vspace{-3ex}
+\begin{tabular}{c|r|r|r|r|r||r|r|r|r|r}
+\hline
+ & \FINEOneC & \HyRTSOneC & \HyRTSSOneC & \METHODSOneC & \METHODSSOneC & \FINEThreeCL & \HyRTSThreeCL & \HyRTSSThreeCL & \METHODSThreeCL & \METHODSSThreeCL \\
+\hline
+Min & \UseMacro{AffectedSpecs-min-ps1c-FINE} & \UseMacro{AffectedSpecs-min-ps1c-HyRTS} & \UseMacro{AffectedSpecs-min-ps1c-HyRTS-S} & \UseMacro{AffectedSpecs-min-ps1c-METHODS} & \UseMacro{AffectedSpecs-min-ps1c-METHODS-S} & \UseMacro{AffectedSpecs-min-ps3cl-FINE} & \UseMacro{AffectedSpecs-min-ps3cl-HyRTS} & \UseMacro{AffectedSpecs-min-ps3cl-HyRTS-S} & \UseMacro{AffectedSpecs-min-ps3cl-METHODS} & \UseMacro{AffectedSpecs-min-ps3cl-METHODS-S} \\
+Max & \UseMacro{AffectedSpecs-max-ps1c-FINE} & \UseMacro{AffectedSpecs-max-ps1c-HyRTS} & \UseMacro{AffectedSpecs-max-ps1c-HyRTS-S} & \UseMacro{AffectedSpecs-max-ps1c-METHODS} & \UseMacro{AffectedSpecs-max-ps1c-METHODS-S} & \UseMacro{AffectedSpecs-max-ps3cl-FINE} & \UseMacro{AffectedSpecs-max-ps3cl-HyRTS} & \UseMacro{AffectedSpecs-max-ps3cl-HyRTS-S} & \UseMacro{AffectedSpecs-max-ps3cl-METHODS} & \UseMacro{AffectedSpecs-max-ps3cl-METHODS-S} \\
+Avg & \UseMacro{AffectedSpecs-avg-ps1c-FINE} & \UseMacro{AffectedSpecs-avg-ps1c-HyRTS} & \UseMacro{AffectedSpecs-avg-ps1c-HyRTS-S} & \UseMacro{AffectedSpecs-avg-ps1c-METHODS} & \UseMacro{AffectedSpecs-avg-ps1c-METHODS-S} & \UseMacro{AffectedSpecs-avg-ps3cl-FINE} & \UseMacro{AffectedSpecs-avg-ps3cl-HyRTS} & \UseMacro{AffectedSpecs-avg-ps3cl-HyRTS-S} & \UseMacro{AffectedSpecs-avg-ps3cl-METHODS} & \UseMacro{AffectedSpecs-avg-ps3cl-METHODS-S} \\
+Med & \UseMacro{AffectedSpecs-med-ps1c-FINE} & \UseMacro{AffectedSpecs-med-ps1c-HyRTS} & \UseMacro{AffectedSpecs-med-ps1c-HyRTS-S} & \UseMacro{AffectedSpecs-med-ps1c-METHODS} & \UseMacro{AffectedSpecs-med-ps1c-METHODS-S} & \UseMacro{AffectedSpecs-med-ps3cl-FINE} & \UseMacro{AffectedSpecs-med-ps3cl-HyRTS} & \UseMacro{AffectedSpecs-med-ps3cl-HyRTS-S} & \UseMacro{AffectedSpecs-med-ps3cl-METHODS} & \UseMacro{AffectedSpecs-med-ps3cl-METHODS-S} \\
+\bottomrule
+\end{tabular}
+\label{table:affected-specs}
+\vspace{-3.5ex}
+\end{table*}
+
+
+%\begin{table*}[t!]
+% \scriptsize
+% \centering
+%\addtolength{\tabcolsep}{-0.04em}
+%\caption{Percentage of re-monitored \specs relative to \emop. For each project, we sum affected \specs across \versions then divide by the sum from \emop. Table shows the minimum (Min), maximum (Max), average (Avg), and median (Med) across projects.}
+%\vspace{-3ex}
+%\begin{tabular}{c|r|r|r|r|r|r|r|r|r|r}
+%\hline
+%& \multicolumn{5}{c|}{\psOneC} & \multicolumn{5}{c}{\psThreeCL} \\
+%\hline
+%& \FINE & \HyRTS & \HyRTSS & \METHODS & \METHODSS & \FINE & \HyRTS & \HyRTSS & \METHODS & \METHODSS \\
+%\hline
+%Min & \UseMacro{AffectedSpecs-min-ps1c-FINE} & \UseMacro{AffectedSpecs-min-ps1c-HyRTS} & \UseMacro{AffectedSpecs-min-ps1c-HyRTS-S} & \UseMacro{AffectedSpecs-min-ps1c-METHODS} & \UseMacro{AffectedSpecs-min-ps1c-METHODS-S} & \UseMacro{AffectedSpecs-min-ps3cl-FINE} & \UseMacro{AffectedSpecs-min-ps3cl-HyRTS} & \UseMacro{AffectedSpecs-min-ps3cl-HyRTS-S} & \UseMacro{AffectedSpecs-min-ps3cl-METHODS} & \UseMacro{AffectedSpecs-min-ps3cl-METHODS-S} \\
+%Max & \UseMacro{AffectedSpecs-max-ps1c-FINE} & \UseMacro{AffectedSpecs-max-ps1c-HyRTS} & \UseMacro{AffectedSpecs-max-ps1c-HyRTS-S} & \UseMacro{AffectedSpecs-max-ps1c-METHODS} & \UseMacro{AffectedSpecs-max-ps1c-METHODS-S} & \UseMacro{AffectedSpecs-max-ps3cl-FINE} & \UseMacro{AffectedSpecs-max-ps3cl-HyRTS} & \UseMacro{AffectedSpecs-max-ps3cl-HyRTS-S} & \UseMacro{AffectedSpecs-max-ps3cl-METHODS} & \UseMacro{AffectedSpecs-max-ps3cl-METHODS-S} \\
+%Avg & \UseMacro{AffectedSpecs-avg-ps1c-FINE} & \UseMacro{AffectedSpecs-avg-ps1c-HyRTS} & \UseMacro{AffectedSpecs-avg-ps1c-HyRTS-S} & \UseMacro{AffectedSpecs-avg-ps1c-METHODS} & \UseMacro{AffectedSpecs-avg-ps1c-METHODS-S} & \UseMacro{AffectedSpecs-avg-ps3cl-FINE} & \UseMacro{AffectedSpecs-avg-ps3cl-HyRTS} & \UseMacro{AffectedSpecs-avg-ps3cl-HyRTS-S} & \UseMacro{AffectedSpecs-avg-ps3cl-METHODS} & \UseMacro{AffectedSpecs-avg-ps3cl-METHODS-S} \\
+%Med & \UseMacro{AffectedSpecs-med-ps1c-FINE} & \UseMacro{AffectedSpecs-med-ps1c-HyRTS} & \UseMacro{AffectedSpecs-med-ps1c-HyRTS-S} & \UseMacro{AffectedSpecs-med-ps1c-METHODS} & \UseMacro{AffectedSpecs-med-ps1c-METHODS-S} & \UseMacro{AffectedSpecs-med-ps3cl-FINE} & \UseMacro{AffectedSpecs-med-ps3cl-HyRTS} & \UseMacro{AffectedSpecs-med-ps3cl-HyRTS-S} & \UseMacro{AffectedSpecs-med-ps3cl-METHODS} & \UseMacro{AffectedSpecs-med-ps3cl-METHODS-S} \\
+%\bottomrule
+%\end{tabular}
+%\label{table:affected-specs}
+%\vspace{-3.5ex}
+%\end{table*}

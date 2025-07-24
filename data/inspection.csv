@@ -1,0 +1,80 @@
+project,SHA,prev SHA,unsafe algos,post inspection,reason
+BeanTest,1a2e12c8,5fd00d64,ALL8,FALSE +VE,Algorithms did not miss anything. REASON:VMS_LIMITATION
+BeanTest,36f84631,0b9ede25,ALL8,FALSE +VE,Algorithms did not miss anything. VMS finds a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+BeanTest,5fd00d64,ca74f47d,ALL8,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+BeanTest,667755b0,d53a11b0,ALL8,FALSE +VE,Algorithms did not miss anything. REASON:VMS_LIMITATION
+BeanTest,8add94fc,aab22fc4,ALL8,FALSE +VE,Algorithms did not miss anything. REASON:VMS_LIMITATION
+BeanTest,aab22fc4,095f7f50,ALL8,FALSE +VE,Algorithms did not miss anything. REASON:VMS_LIMITATION
+BeanTest,b0306567,36f84631,ALL8,FALSE +VE,Algorithms did not miss anything. REASON:VMS_LIMITATION
+BeanTest,ca65459f,1a2e12c8,ALL8,FALSE +VE,Algorithms did not miss anything. REASON:VMS_LIMITATION
+BeanTest,ca74f47d,8add94fc,ALL8,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+client-encryption-java,ce57f3d54e955e240e7cb7d09e77eafa1f3dda36,000d7ffe12599d788bb012087f4acb8cb0a8f291,ALL8,FALSE +VE,Source code did not change.
+contentful.java,28300ba17102a82578b5a43de1bda75d998ff053,e468fd406d5fe199b7a81bfea710d8dd06544384,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,330acc5081e9f7451c95e40df86992151474c08a,a574b245044e988a2a2324af67987a239b98756f,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,65d321b58adbf6a9f07d98fd0141883a33de740f,bcb9da8213a12e7f6043e072bdc1902b274a2025,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,6fee973deae4da8ceb40d64a6de88d9fd331acb6,c5c311adc95449c472eb37c77e4a17e044fb51e7,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,84889ddc96596abc9722bd7e49918ad183ab5264,e62c4357c30998c53e58f57bf96af6d4161fefae,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,868b4ef3b4374f696731d4cdfd5b696de021ca45,48911d8ad6e94637db88f49328d935b1098e30c9,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,a574b245044e988a2a2324af67987a239b98756f,280e3326ca30746a4db66ccde2a7073da3142a07,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,bcb9da8213a12e7f6043e072bdc1902b274a2025,de938fd4c6987511b1edf6c076507a7ce972d063,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,e62c4357c30998c53e58f57bf96af6d4161fefae,N/A,ALL8,FALSE +VE,First SHA did not find the violation. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,e7a0c412b94c97ff49e4cfac539c243f46821f11,b29b2f1c38f2d00e91cd5c676e65d6ec1e4ce576,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+contentful.java,eadcc34b295d1c8e7a7b71747927cc84d5cfff04,acf94238558df6351df7518d6770eee3c9eb74b3,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+dnsjava,259ea0d6,170c5c6d,ALL8,FALSE +VE,VMS finds a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+dnsjava,505b4ce9,48785dd5,ALL8,FALSE +VE,missed a violation that was later found by VMS but missed by MOP. Indicating non-determinism. REASON:NON_DETERMINISM
+dnsjava,a118e796,403ce329,ALL8,FALSE +VE,VMS finds a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+gelly-streaming,2beed862,20acc8ff,ALL8,FALSE +VE,VMS finds a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+gelly-streaming,7b41635a,c6abf79b,METHODS-FA,TRUE +VE,Implementation problem of FA. Correctly identified the set of impacted method but failed to report violation. REASON:IMPLEMENTATION_PROBLEM
+gelly-streaming,848b6abc,2c82ff16,ALL8,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+gelly-streaming,fd519999,43bccc8b,HyRTS-S METHODS-S METHODS-F METHODS-FA,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+gozer,a8087ee62b4a0364f5947b0bf0c0afc8643229a6,f75bc11df480f854e80b1c1b81cf825d3c733355,ALL8,FALSE +VE,Line number shift along with changes in indentation of the line. The violation that VMS found is an old violation. REASON:VMS_LIMITATION
+heros,c740e6b4c80ab9e6162a39dcc280b22429e0279b,3a26b4eef29893153bfb0e1ed0f8389ec9e5fdb6,FINE,FALSE +VE,Line number shift along with changes in indentation of the line. The violation that VMS found is an old violation. REASON:VMS_LIMITATION
+HyperMinHash-java,f668b03e,N/A,HyRTS-S METHODS-S METHODS-F METHODS-FA,FALSE +VE,Missed violation when reverting to Base RV. Indicating non-determinism. REASON:NON_DETERMINISM
+jetCheck,9239196a,3e70db07,HyRTS-S METHODS-S METHODS-F METHODS-FA,FALSE +VE,Line number shift. REASON:VMS_LIMITATION
+jetCheck,af9f79d9,1cbfa35e,HyRTS-S METHODS-S METHODS-F METHODS-FA,FALSE +VE,Line number shift. REASON:VMS_LIMITATION
+joda-time,3ba701b9d83dc9a6a1d45695c55f4f6edaa103c7,66825d61bf5257445f62a8a91ffda9fff8dcc4dd,METHODS-F METHODS-FA,FALSE +VE,Same set of violations but manifested as line number shift. REASON:VMS_LIMITATION
+joda-time,4d84d89207088ff08fc76d00bf90a56525aa7589,ca7bec7931d244bf0cd344efe480aa9d9c54db9e,METHODS-FA,FALSE +VE,Same set of violations but manifested as line number shift. REASON:VMS_LIMITATION
+joda-time,eaaff1d0687fc86a745ca8f3ea0b069b3cf54233,381cca4018848c2fa75ae93efd44872c3d60cd59,METHODS-FA,FALSE +VE,Same set of violations but manifested as line number shift. REASON:VMS_LIMITATION
+jscep,6e794a46fc5966c579080b811c78305b01009570,8cd073c02a0cb19acb2dd5da23b4e76efaaddc5a,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+jscep,8cd073c02a0cb19acb2dd5da23b4e76efaaddc5a,ce7b9aed692c8e16dff96c0ba7f692815a522329,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+jscep,c77163782b228f908b14072f0bb6a30af34b6af2,6e794a46fc5966c579080b811c78305b01009570,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+jscep,da51082874b43eaf0a7878042de51a80d8738d08,c77163782b228f908b14072f0bb6a30af34b6af2,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+jscep,e553d489636bbde683314ebd5a134782594eeb1a,98c48ea1415006b8a9302c0cdc100cd1ab899925,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+liquibase-mssql,3ae07cbb3d7b36ca3a57db95b71366c916c75693,f2f7cbb681140ac27c9981c97c8a2dd054ba5d88,METHODS-S METHODS-F METHODS-FA,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+mutation-analysis-plugin,2a5452de27ab86040dd0f17f4fda371bea121599,9da5157a8b9c1c668ce85b2baacc8e410d21c4c3,HyRTS-S METHODS-S METHODS-F METHODS-FA,FALSE +VE,Line number shift. REASON:VMS_LIMITATION
+Mybatis-PageHelper,084f488f87a12de0657400c066a71c3b0b4b36fd,5b301ba50d647d4993635adcc3dc9eca0745f0c9,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+Mybatis-PageHelper,46a4d9e300f90db33758e2d058ef5ade9b094aae,10d22fcb31027635156e722e62685a1932fab515,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+Mybatis-PageHelper,46a4d9e300f90db33758e2d058ef5ade9b094aae,10d22fcb31027635156e722e62685a1932fab515,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+Mybatis-PageHelper,5b301ba50d647d4993635adcc3dc9eca0745f0c9,b72cbaf5080b37c3c2bed2bb7ebd0bbb29183fd0,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+Mybatis-PageHelper,6e0d8beb6fe1b3242ab1904065d8bd29d7da2e00,322c261bbb6fd36162716abc3474e44f03c9a796,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+Mybatis-PageHelper,6e0d8beb6fe1b3242ab1904065d8bd29d7da2e00,322c261bbb6fd36162716abc3474e44f03c9a796,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+Mybatis-PageHelper,b72cbaf5080b37c3c2bed2bb7ebd0bbb29183fd0,b2bed20f32897bd7f582a1752ba0a5f2a6799191,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+Mybatis-PageHelper,e83fe79a4083496dcbf87e29645e4dbe578957f0,873df3755f00cb12119a8646fa0a1ce0cf431c8c,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+Mybatis-PageHelper,f2d1889c11e6abc68d1518ddca8c6870ae47e300,9435e5252e70babd05539c857f0fce17c9c7cb3d,ALL8,FALSE +VE,VMS reports a violation at unknown location. Algorithms did not miss anything. REASON:VMS_LIMITATION
+Octopus,11c857e7eb359fcabd6ce7e0a02cd7ad773b0d9c,441a17e9cede9cc73dc2860e29d779a85fd99e99,HyRTS-S METHODS-S METHODS-F METHODS-FA,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+Octopus,2c93dbab98c656732261bbaa77a35f85241df693,62c060ad12fdd998ec0aaef20867bdc1647c35d0,ALL8,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+Octopus,6bcf7fcc3a382df20e75cc8de26a173fe6638ffa,cd68eb8dca18760d77d010569aab938c766e19c2,HyRTS-S METHODS-S METHODS-F METHODS-FA,FALSE +VE,Line number shift. REASON:VMS_LIMITATION
+Octopus,cd68eb8dca18760d77d010569aab938c766e19c2,6efd85b2d8267d554293eadd608c9963f81e0478,HyRTS-S METHODS-S METHODS-F METHODS-FA,FALSE +VE,Line number shift. REASON:VMS_LIMITATION
+Octopus,f8d9f00c7bb21541d0986666be4b74d47a85f9f6,6bcf7fcc3a382df20e75cc8de26a173fe6638ffa,HyRTS-S METHODS-S METHODS-F METHODS-FA,FALSE +VE,Line number shift. REASON:VMS_LIMITATION
+osm-lib,1e2f159b6ff20500ef65ad82580c66be5a14f7a2,9bde20243cbaf11c9fc7e7af8a3de467f2a4c1d2,ALL8,TRUE +VE,Missed violation in 3rd party library due to incomplete CDG. REASON:INCOMPLETE_CDG
+rxjava2-file,3e34b55f92e41bd052830dc67eb2224dc4407985,1c8961061d594a4b5036b8c8fa018d01bc214332,ALL8,FALSE +VE,VMS finds a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+rxjava2-file,e26b35b55a963d8379e5c2cf1104bd5a86afeca3,97abe0865559a0f8abd98e9519f51613b0df80ba,METHODS-FA,FALSE +VE,Line number shift along with changes in indentation of the line. The violation that VMS found is an old violation. REASON:VMS_LIMITATION
+shopify-sdk,fd7232206d6eddb19da1eefd3163e28392652706,N/A,ALL8,FALSE +VE,First SHA did not find the violation. VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+shopify-sdk,a6696849b3dc766d5ccbf0d6c66f24ee6dfeaccd,fabc0a73fb216922607afd377e2bb686dd1d265f,ALL8,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+sling-org-apache-sling-feature,df44c46419998c7717f372ea914e27d52766155d,71b0fe433782d307435406ec7e722f8af93535d1,ALL EXCEPT CLASS,TRUE +VE,Missed violations due to less conservative graph traversal. REASON:VARIANT
+sling-org-apache-sling-feature,ecec4f853f36df390e9f6dd61fea80eea9a32be0,9958526ed2b81f0a7fe7b5156903f6d86e936d16,ALL8,FALSE +VE,eMOP first found the violation so it is not new. REASON:VMS_LIMITATION
+soapstone,145a4bf7c99cf768a671e5c874bd6db7b26a3aff,60bd7d5cc1b515db30258a23c4949fc9b3964648,ALL8,FALSE +VE,MOP did not produce any new violations. This violation was also later missed by MOP but found by VMS. REASON:NON_DETERMINISM
+soapstone,25916d170800b4ba3946b7469317ddd7442e303a,821d1cf9581ecc2e170ab6775b7d637c27669671,ALL8,FALSE +VE,CLASSES found in the past. REASON:VMS_LIMITATION
+soapstone,71328521eae87bd7c3deef00b15a1de1fa2c0628,8841e30d9c1267941f5c7a54399eb20a5b63e65d,ALL8,FALSE +VE,CLASSES found in the past. REASON:VMS_LIMITATION
+soapstone,821d1cf9581ecc2e170ab6775b7d637c27669671,71328521eae87bd7c3deef00b15a1de1fa2c0628,ALL8,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+soapstone,f78f52ff7455e09fa03bb8cd7c071268cb0e3998,11100798e0c0f2a8a84e26c7c31aa104311f0480,ALL8,FALSE +VE,eMOP first SHA did not find the violation. Indicating non-determinism. REASON:NON_DETERMINISM
+sonar-clojure,6b6056f0b74bdc800ca7eee0565ef42bb28ffb5c,9935c60ac67a3353a565ad6b2241ffaf051421a8,ALL8,TRUE +VE,Missed violation in 3rd party library. REASON:INCOMPLETE_CDG
+time-series-math,c2fa911b,2a3c92b8,METHODS-FA,TRUE +VE,Implementation problem of FA. Correctly identified the set of impacted method but failed to report violation. REASON:IMPLEMENTATION_PROBLEM
+wd.java,08d937a1ae7c23f2354d3003d8d169311d543cff,12e7c5cbcbc76a65dd2a5ceb6a8fa4496cb21e0f,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+wd.java,1dd870054b9a73a0e87d77b826979a023238a7c7,N/A,ALL8,FALSE +VE,First SHA did not find the violation. Indicating non-determinism. REASON:NON_DETERMINISM
+wd.java,44dab47ae2970887199351667189948a8932c27e,9b2768ccaf4ef95abc4baf78979a796dc9e40eaa,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM
+wd.java,6ac8292c7a8e4a4746940d96f73d63e79ff36a5e,c324ab452e83a4ddd9694344700834f11c77f99e,ALL8,FALSE +VE,VMS reports an old violation. REASON:VMS_LIMITATION
+wd.java,7c8c18bbb85ae2f6e93e5b041de4f8c861698c98,e5a5c99331cb8f011f1a8c3ec7e2e129bb2f4e38,ALL8,FALSE +VE,VMS reports an old violation. REASON:VMS_LIMITATION
+wd.java,95b2eb2686d6bc0886f9f20454b4b702128c8342,1dd870054b9a73a0e87d77b826979a023238a7c7,HyRTS-S METHODS-S METHODS-F METHODS-FA,FALSE +VE,VMS reports an old violation. REASON:VMS_LIMITATION
+wd.java,b380cc3fc099c376c54ed454c25cc4763464f5be,d5aaa7cc8bc307512bd66efad25f58d389e2772b,ALL8,FALSE +VE,VMS reports an old violation. REASON:VMS_LIMITATION
+wd.java,c324ab452e83a4ddd9694344700834f11c77f99e,aa95ba9102dbfb5b7e0d6bbbb1425a7ba06c6f6d,ALL8,FALSE +VE,VMS found a violation that MOP missed. Indicating non-determinism. REASON:NON_DETERMINISM

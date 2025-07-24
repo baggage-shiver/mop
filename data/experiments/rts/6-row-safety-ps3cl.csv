@@ -1,0 +1,7 @@
+,|CLASSES|,|FINE|,|HyRTS|,|HyRTS-S|,|METHODS|,|METHODS-F|,|METHODS-S|,
+Missed violations pre (Out of 943),116,118,119,133,118,136,134,
+Missed violations post (Out of 943),0,0,0,1,0,1,1,
+Unsafe revisions pre (Out of 1104),66,67,68,76,68,77,76,
+Unsafe revisions post (Out of 1104),0,0,0,1,0,1,1,
+Unsafe projects pre (Out of 68),17,19,18,21,18,21,21,
+Unsafe projects post (Out of 68),0,0,0,1,0,1,1,

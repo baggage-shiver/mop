@@ -1,0 +1,118 @@
+%\begin{table*}
+%	\scriptsize
+%	\centering
+%	\caption{Features in each \Tool technique. {\cmark}: feature is present.}
+%	\begin{tabular}{l|c|c|c|c|c|c|c|c|c|c|c|c|c|c}
+%	\hline
+%		& \multicolumn{7}{c|}{\psOneC} & \multicolumn{7}{c}{\psThreeCL} \\
+%	\hline
+%	& \rotatebox{90}{\emop} & \rotatebox{90}{\FINE} & \rotatebox{90}{\HyRTS} & \rotatebox{90}{\HyRTSS} & \rotatebox{90}{\METHODS} & \rotatebox{90}{\MethodSpecMapping} & \rotatebox{90}{\METHODSS} & \rotatebox{90}{\emop} & \rotatebox{90}{\FINE} & \rotatebox{90}{\HyRTS} & \rotatebox{90}{\HyRTSS} & \rotatebox{90}{\METHODS} & \rotatebox{90}{\MethodSpecMapping} & \rotatebox{90}{\METHODSS} \\
+%	\hline
+%	Class level reasoning & \cmark & \cmark & \cmark & \cmark & & & & \cmark & \cmark & \cmark & \cmark & & & \\
+%	\hline
+%	Method level reasoning & & & \cmark & \cmark & \cmark & \cmark & \cmark & & & \cmark & \cmark & \cmark & \cmark & \cmark \\
+%	\hline
+%	Library reasoning & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark & & & & & & & \\
+%	\hline
+%	Check semantics-modifying & & \cmark & & & & & & & \cmark & & & & & \\
+%	\hline
+%	Spec to code reasoning & & & & \cmark & & \cmark & \cmark & & & & \cmark & & \cmark & \cmark \\
+%	\hline
+%	Finer monitoring & & & & & & \cmark & & & & & & & \cmark & \\
+%	\bottomrule
+%	\end{tabular}
+%\label{table:summary-grid}
+%\vspace{-3.55ex}
+%\end{table*}
+
+
+%\begin{table*}[t]
+%	\vspace{-3ex}
+%	\scriptsize
+%	\centering
+%	\caption{Features in each \Tool algorithm. {\cmark}: feature is present, {\xmark} otherwise.}
+%	\vspace{-3ex}
+%	\setlength{\extrarowheight}{3pt}
+%	\begin{tabular}{llcccccc}
+%	\toprule
+%	& & \parbox{1.55cm}{\centering Class level analysis} & \parbox{1.55cm}{\centering Method level analysis} & \parbox{1.55cm}{\centering Library instrumentation} & \parbox{1.55cm}{\centering Semantics reasoning} & \parbox{1.55cm}{\centering Finer \spec mapping} & \parbox{1.55cm}{\centering Finer monitoring} \\
+%	\hline
+%	\multirow{7}{4ex}{\psOneC}
+%	& Class level & \cmark & \xmark & \cmark & \xmark & \xmark & \xmark \\
+%	\cline{2-8}
+%	& \FINE & \cmark & \xmark & \cmark & \cmark & \xmark & \xmark \\
+%	\cline{2-8}
+%	& \HyRTS & \cmark & \cmark & \cmark & \xmark & \xmark & \xmark \\
+%	\cline{2-8}
+%	& \HyRTSS & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark \\
+%	\cline{2-8}
+%	& \METHODS & \xmark & \cmark & \cmark & \xmark & \xmark & \xmark \\
+%	\cline{2-8}
+%	& \MethodSpecMapping & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+%	\cline{2-8}
+%	& \METHODSS & \xmark & \cmark & \cmark & \xmark & \cmark & \xmark \\
+%	\cline{1-8}
+%	\multirow{7}{4ex}{\psThreeCL}
+%	& Class level & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\
+%	\cline{2-8}
+%	& \FINE & \cmark & \xmark & \xmark & \cmark & \xmark & \xmark \\
+%	\cline{2-8}
+%	& \HyRTS & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark \\
+%	\cline{2-8}
+%	& \HyRTSS & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark \\
+%	\cline{2-8}
+%	& \METHODS & \xmark & \cmark & \xmark & \xmark & \xmark & \xmark \\
+%	\cline{2-8}
+%	& \MethodSpecMapping & \xmark & \cmark & \xmark & \xmark & \cmark & \cmark \\
+%	\cline{2-8}
+%	& \METHODSS & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark \\
+%	\bottomrule
+%	\end{tabular}
+%\label{table:summary-grid}
+%\vspace{-6ex}
+%\end{table*}
+
+\begin{table}[t]
+	\vspace{-3ex}
+	\scriptsize
+	\centering
+	\addtolength{\tabcolsep}{-1.2em}
+	\caption{Features in each \Tool algorithm. {\cmark}: feature is present, {\xmark} otherwise.}
+	\vspace{-3ex}
+	\setlength{\extrarowheight}{3pt}
+	\begin{tabular}{lcccccc}
+	\toprule
+	& \parbox{1.4cm}{\centering Class level analysis} & \parbox{1.4cm}{\centering Method level analysis} & \parbox{1.4cm}{\centering Library instrumentation} & \parbox{1.4cm}{\centering Semantics reasoning} & \parbox{1.4cm}{\centering Finer \spec mapping} & \parbox{1.4cm}{\centering Finer monitoring} \\
+	\hline
+	\psOneC & \cmark & \xmark & \cmark & \xmark & \xmark & \xmark \\
+	\hline
+	\FINEOneC & \cmark & \xmark & \cmark & \cmark & \xmark & \xmark \\
+	\hline
+	\HyRTSOneC & \cmark & \cmark & \cmark & \xmark & \xmark & \xmark \\
+	\hline
+	\HyRTSSOneC & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark \\
+	\hline
+	\METHODSOneC & \xmark & \cmark & \cmark & \xmark & \xmark & \xmark \\
+	\hline
+	\METHODSFAOneC & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+	\hline
+	\METHODSSOneC & \xmark & \cmark & \cmark & \xmark & \cmark & \xmark \\
+	\hline
+	\psThreeCL & \cmark & \xmark & \xmark & \xmark & \xmark & \xmark \\
+	\hline
+	\FINEThreeCL & \cmark & \xmark & \xmark & \cmark & \xmark & \xmark \\
+	\hline
+	\HyRTSThreeCL & \cmark & \cmark & \xmark & \xmark & \xmark & \xmark \\
+	\hline
+	\HyRTSSThreeCL & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark \\
+	\hline
+	\METHODSThreeCL & \xmark & \cmark & \xmark & \xmark & \xmark & \xmark \\
+	\hline
+	\METHODSFAThreeCL & \xmark & \cmark & \xmark & \xmark & \cmark & \cmark \\
+	\hline
+	\METHODSSThreeCL & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark \\
+	\bottomrule
+	\end{tabular}
+\label{table:summary-grid}
+\vspace{-6ex}
+\end{table}

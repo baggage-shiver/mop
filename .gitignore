@@ -1,0 +1,33 @@
+# Environment-related
+.starts/
+results/
+**/*.idea/
+**/.DS_Store
+**/target
+**/*.class
+*.iml
+
+# Experiment-related
+**/data/generated-data
+experiment-projects
+env-*
+logs
+profile
+data/revisions/*-tmp.txt
+/tables
+/plots
+tmp*
+
+# LaTeX-related
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*.ps
+*.pdf
+*.xcp
+*.ps
+
+**/*~

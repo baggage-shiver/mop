@@ -1,0 +1,21 @@
+\begin{table}[!t]
+  \centering
+  \scriptsize
+  \vspace{1ex}
+  \caption{Summary statistics on \UseMacro{NumProjects} GitHub projects that we evaluate: no. of test methods (\numTestMethods), test time w/o \RV in seconds (\timeWithoutRV), test time with \RV in seconds (\timeWithRV), lines of code (\sloc), \% statement coverage (\scov), \% branch coverage (\bcov), no. of GitHub commits (\numCommits), years since first commit (\projectAge), and no. of stars (\numStars).}
+  \vspace{-2ex}
+  \addtolength{\tabcolsep}{-0.1em}
+  \begin{tabular}{l|r r r r r r r r r}
+  \toprule
+ & \numTestMethods & \timeWithoutRV & \timeWithRV & \sloc & \scov & \bcov & \numCommits & \projectAge & \numStars \\
+\midrule
+Mean & \UseMacro{TestCountMean} & \UseMacro{TestTimeMean} & \UseMacro{MOPTimeMean} & \UseMacro{SlocMean} & \UseMacro{LineCovMean} & \UseMacro{BranchCovMean} & \UseMacro{CommitsMean} & \UseMacro{AgeMean} & \UseMacro{StarsMean} \\
+Med & \UseMacro{TestCountMedian} & \UseMacro{TestTimeMedian} & \UseMacro{MOPTimeMedian} & \UseMacro{SlocMedian} & \UseMacro{LineCovMedian} & \UseMacro{BranchCovMedian} & \UseMacro{CommitsMedian} & \UseMacro{AgeMedian} & \UseMacro{StarsMedian} \\
+Min & \UseMacro{TestCountMin} & \UseMacro{TestTimeMin} & \UseMacro{MOPTimeMin} & \UseMacro{SlocMin} & \UseMacro{LineCovMin} & \UseMacro{BranchCovMin} & \UseMacro{CommitsMin} & \UseMacro{AgeMin} & \UseMacro{StarsMin} \\
+Max & \UseMacro{TestCountMax} & \UseMacro{TestTimeMax} & \UseMacro{MOPTimeMax} & \UseMacro{SlocMax} & \UseMacro{LineCovMax} & \UseMacro{BranchCovMax} & \UseMacro{CommitsMax} & \UseMacro{AgeMax} & \UseMacro{StarsMax} \\
+Sum & \UseMacro{TestCountSum} & \UseMacro{TestTimeSum} & \UseMacro{MOPTimeSum} & \UseMacro{SlocSum} & \UseMacro{LineCovSum} & \UseMacro{BranchCovSum} & \UseMacro{CommitsSum} & \UseMacro{AgeSum} & \UseMacro{StarsSum} \\
+  \bottomrule
+  \end{tabular}
+  \label{table:projects-stat}
+  \vspace{-6ex}
+\end{table}

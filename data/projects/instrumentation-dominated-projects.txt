@@ -1,0 +1,10 @@
+dperezcabrera/jpoker
+sblendorio/petscii-bbs
+houbb/segment
+whizzosoftware/WZWave
+apache/sling-org-apache-sling-feature
+ripreal/V8LogScanner
+eightbitjim/cassette-nibbler
+imglib/imglib2
+houbb/sensitive-word
+codelion/gramtest

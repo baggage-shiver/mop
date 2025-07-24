@@ -1,0 +1,8 @@
+SHA,|MOP|,|VMS|,|VMS\MOP|,|VMS\CLASSES_ps3cl|,|CLASSES_ps3cl\VMS|,|VMS\FINE_ps3cl|,|FINE_ps3cl\VMS|,|VMS\HyRTS_ps3cl|,|HyRTS_ps3cl\VMS|,|VMS\HyRTS-S_ps3cl|,|HyRTS-S_ps3cl\VMS|,|VMS\METHODS_ps3cl|,|METHODS_ps3cl\VMS|,|VMS\METHODS-F_ps3cl|,|METHODS-F_ps3cl\VMS|,|VMS\METHODS-FA_ps3cl|,|METHODS-FA_ps3cl\VMS|,|VMS\METHODS-S_ps3cl|,|METHODS-S_ps3cl\VMS|
+e46fcbb0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+086211b2,3,0,0,0,2,0,2,0,2,0,0,0,0,0,0,0,0,0,0
+a2277fcb,3,0,0,0,2,0,2,0,2,0,2,0,2,0,0,0,0,0,0
+a584486c,3,0,0,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0
+sum,12,3,0,0,6,0,6,0,4,0,2,0,2,0,0,0,0,0,0
+arith_mean,3.00,3.00,-nan,-nan,2.00,-nan,2.00,-nan,2.00,-nan,2.00,-nan,2.00,-nan,-nan,-nan,-nan,-nan,-nan
+geo_mean,3.00,3.00,-nan,-nan,2.00,-nan,2.00,-nan,2.00,-nan,2.00,-nan,2.00,-nan,-nan,-nan,-nan,-nan,-nan
